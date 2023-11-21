@@ -1,0 +1,73 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "lint:code": {
+      "name": "lint:code",
+      "command": "npm run lint:code",
+      "runAtStart": false
+    },
+    "lint:styles": {
+      "name": "lint:styles",
+      "command": "npm run lint:styles",
+      "runAtStart": false
+    },
+    "check:types": {
+      "name": "check:types",
+      "command": "npm run check:types",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "cypress": {
+      "name": "cypress",
+      "command": "npm run cypress",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "npm run storybook",
+      "runAtStart": false
+    },
+    "build-storybook": {
+      "name": "build-storybook",
+      "command": "npm run build-storybook",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    }
+  }
+}

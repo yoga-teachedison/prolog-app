@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <PageContainer
       title="Projects"
-      info="Overview of your projects sorted by alert level."
+      info="Overview of your projects sorted by alert level. This is edited by Yoga."
     >
       <ProjectList />
     </PageContainer>
